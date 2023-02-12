@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 6</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form>
+      <label for="fname">First Name :</label>
+      <input
+        type="text"
+        name="First Name"
+        id="fname"
+        placeholder="Enter your First Name"
+      />
+      <br />
+      <br />
+      <label for="lname">Last Name :</label>
+      <input
+        type="text"
+        name="LastName"
+        id="lname"
+        placeholder="Enter your Last Name"
+      />
+      <h3>Select Gender :</h3>
+      <input type="radio" id="male" name="Gender" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="Gender" />
+      <label for="female">Female</label>
+      <input type="radio" id="others" name="Gender" />
+      <label for="others">Others</label>
+      <h3>Subjects :</h3>
+      <input type="checkbox" id="Physics" />
+      <label for="Physics">Physics</label>
+      <br />
+      <input type="checkbox" id="Chemistry" />
+      <label for="Chemistry">Chemistry</label>
+      <br />
+      <input type="checkbox" id="Biology" />
+      <label for="Biology">Biology</label>
+      <br /><br /><br />
+      <label for="country"> Country :</label>
+      <select id="country">
+        <option value="Pak">please select a country</option>
+        <option value="Pak">abc</option>
+        <option value="Pak">pak</option>
+        <option value="india">india</option>
+        <option value="china">china</option>
+      </select>
+      <br /><br />
+      <label for="pswd">Password:</label>
+      <input
+        type="password"
+        id="pswd"
+        minlength="4"
+        maxlength="8"
+        placeholder="must be 4 to 8 characters"
+      />
+      <br /><br />
+      <label for="text-area">Message</label>
+      <textarea
+        name="messagw"
+        id="text-area"
+        cols="30"
+        rows="10"
+        placeholder="Enter your message"
+      ></textarea>
+      <br />
+      <h3>Select your Fav clr</h3>
+      <input type="color" />
+      <br /><br />
+      <br /><br /><br />
+      <input type="date" />
+      <br />
+      <input type="time" />
+      <br />
+      <input type="datetime-local" />
+      <br />
+      <input type="month" />
+      <br />
+      <input type="week" />
+      <br />
+      <input type="submit" value="Submittt" />
+      <br />
+    </form>
+  </body>
+</html>
